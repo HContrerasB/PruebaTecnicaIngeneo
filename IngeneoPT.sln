@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngeneoPT", "IngeneoPT.csproj", "{6271CE85-DB47-410C-AF78-A3E88137D9FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6271CE85-DB47-410C-AF78-A3E88137D9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6271CE85-DB47-410C-AF78-A3E88137D9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6271CE85-DB47-410C-AF78-A3E88137D9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6271CE85-DB47-410C-AF78-A3E88137D9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F70154D-D251-4E0A-AFD3-5F844590FCE0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,79 @@
+﻿@page
+@model IngeneoPT.Views.create2Model
+
+<h4>Envio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Envio.ClienteId" class="control-label"></label>
+                <select asp-for="Envio.ClienteId" class ="form-control" asp-items="ViewBag.ClienteId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.ProductoId" class="control-label"></label>
+                <select asp-for="Envio.ProductoId" class ="form-control" asp-items="ViewBag.ProductoId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.TipoTransporteId" class="control-label"></label>
+                <select asp-for="Envio.TipoTransporteId" class ="form-control" asp-items="ViewBag.TipoTransporteId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.UbicacionId" class="control-label"></label>
+                <select asp-for="Envio.UbicacionId" class ="form-control" asp-items="ViewBag.UbicacionId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.Matricula" class="control-label"></label>
+                <input asp-for="Envio.Matricula" class="form-control" />
+                <span asp-validation-for="Envio.Matricula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.NumeroGuia" class="control-label"></label>
+                <input asp-for="Envio.NumeroGuia" class="form-control" />
+                <span asp-validation-for="Envio.NumeroGuia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.FechaRegistro" class="control-label"></label>
+                <input asp-for="Envio.FechaRegistro" class="form-control" />
+                <span asp-validation-for="Envio.FechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.FechaEntrega" class="control-label"></label>
+                <input asp-for="Envio.FechaEntrega" class="form-control" />
+                <span asp-validation-for="Envio.FechaEntrega" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.PrecioEnvio" class="control-label"></label>
+                <input asp-for="Envio.PrecioEnvio" class="form-control" />
+                <span asp-validation-for="Envio.PrecioEnvio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.Descuento" class="control-label"></label>
+                <input asp-for="Envio.Descuento" class="form-control" />
+                <span asp-validation-for="Envio.Descuento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.ValorDescuento" class="control-label"></label>
+                <input asp-for="Envio.ValorDescuento" class="form-control" />
+                <span asp-validation-for="Envio.ValorDescuento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Envio.PrecioTotal" class="control-label"></label>
+                <input asp-for="Envio.PrecioTotal" class="form-control" />
+                <span asp-validation-for="Envio.PrecioTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

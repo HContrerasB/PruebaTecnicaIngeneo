@@ -1,0 +1,185 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IngeneoPT
+build_property.RootNamespace = IngeneoPT
+build_property.ProjectDir = C:\Users\hecto\source\repos\IngeneoPT\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hecto\source\repos\IngeneoPT
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/create2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3JlYXRlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Envios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Envios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Envios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Envios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Envios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Logica/CreateEnvio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naWNhXENyZWF0ZUVudmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Logica/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naWNhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Logica/ViewData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naWNhXFZpZXdEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Productoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Productoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Productoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Productoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Productoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoProductos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1Byb2R1Y3Rvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoProductos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1Byb2R1Y3Rvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoProductos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1Byb2R1Y3Rvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoProductos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1Byb2R1Y3Rvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoProductos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1Byb2R1Y3Rvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoTransportes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1RyYW5zcG9ydGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoTransportes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1RyYW5zcG9ydGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoTransportes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1RyYW5zcG9ydGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoTransportes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1RyYW5zcG9ydGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/TipoTransportes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1RyYW5zcG9ydGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Ubicaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Ubicaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Ubicaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Ubicaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Ubicaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hecto/source/repos/IngeneoPT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-92y7c1yknf

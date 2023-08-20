@@ -1,0 +1,36 @@
+﻿@model IngeneoPT.ViewModels.LogicaViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logica View</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Logica View</h1>
+
+        <!-- Aquí puedes utilizar las propiedades del ViewModel para mostrar los datos -->
+        <h2>Clientes</h2>
+        <ul>
+            @foreach (var cliente in Model.Clientes)
+            {
+                <li>@cliente.Nombre</li>
+            }
+        </ul>
+
+        <h2>Productos</h2>
+        <ul>
+            @foreach (var producto in Model.Productos)
+            {
+                <li>@producto.TipoProductoId</li>
+            }
+        </ul>
+
+        <!-- Repite lo mismo para las otras propiedades del ViewModel -->
+
+    </div>
+
+</body>
+</html>

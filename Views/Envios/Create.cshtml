@@ -1,0 +1,166 @@
+﻿@model IngeneoPT.Models.Envio
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Envio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ClienteId" class="control-label"></label>
+                <select asp-for="ClienteId" class ="form-control" asp-items="ViewBag.ClienteId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductoId" class="control-label"></label>
+                <select asp-for="ProductoId" class ="form-control" asp-items="ViewBag.ProductoId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoTransporteId" class="control-label"></label>
+                <select asp-for="TipoTransporteId" class ="form-control" asp-items="ViewBag.TipoTransporteId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="UbicacionId" class="control-label"></label>
+                <select asp-for="UbicacionId" class ="form-control" asp-items="ViewBag.UbicacionId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Matricula" class="control-label"></label>
+                <input asp-for="Matricula" class="form-control" />
+                <span asp-validation-for="Matricula" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="NumeroGuia" class="control-label"></label>
+                        <input asp-for="NumeroGuia" class="form-control" readonly />
+                        <span asp-validation-for="NumeroGuia" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-end">
+                    <div class="form-group text-right">
+                        <button id="generarCodigo" type="button" class="btn btn-primary">Generar Código</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaRegistro" class="control-label"></label>
+                <input asp-for="FechaRegistro" class="form-control" />
+                <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaEntrega" class="control-label"></label>
+                <input asp-for="FechaEntrega" class="form-control" />
+                <span asp-validation-for="FechaEntrega" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrecioEnvio" class="control-label"></label>
+                <input asp-for="PrecioEnvio" class="form-control" />
+                <span asp-validation-for="PrecioEnvio" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label asp-for="Descuento" class="control-label"></label>
+                    <input asp-for="Descuento" class="form-control" />
+                    <span asp-validation-for="Descuento" class="text-danger"></span>
+                </div>
+                <div>
+                    <input for="descuento" type="checkbox" id="habilitarDescuento" /> habilitar descuento
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="ValorDescuento" class="control-label"></label>
+                <input asp-for="ValorDescuento" class="form-control" readonly />
+                <span asp-validation-for="ValorDescuento" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="PrecioTotal" class="control-label"></label>
+                <input asp-for="PrecioTotal" class="form-control" readonly />
+                <span asp-validation-for="PrecioTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    const valorElemento = document.getElementById("PrecioEnvio");
+    const descuentoElemento = document.getElementById("Descuento");
+    const valordescuentoElemento = document.getElementById("ValorDescuento");
+    const totalElemento = document.getElementById("PrecioTotal");
+    const checkboxElemento = document.getElementById("habilitarDescuento");
+    const selectElemento = document.getElementById("TipoTransporteId");
+    descuentoElemento.value = "0";
+    valorElemento.addEventListener("input", calcularDescuento);
+    descuentoElemento.addEventListener("input", calcularDescuento);
+    checkboxElemento.addEventListener("change", checkstatus);
+    selectElemento.addEventListener("change", cambiovalordes)
+    selectElemento.addEventListener("change", cambiovalordes)
+    function cambiovalordes() {
+        if (checkboxElemento.checked) {
+            if (selectElemento.value === "1") {
+                descuentoElemento.value = "5"; // Cambiar el valor del descuento a 5
+            } else if (selectElemento.value === "2") {
+                descuentoElemento.value = "3"; // Cambiar el valor del descuento a 3
+            }
+            calcularDescuento();
+        }
+    };
+
+    function checkstatus() {
+
+        if (checkboxElemento.checked) {
+            selectElemento.dispatchEvent(new Event("change")); // Disparar el evento change en el select
+        } else {
+            descuentoElemento.value = "0"; // Restaurar el valor del descuento a 0
+            calcularDescuento();
+        }
+    };
+    function calcularDescuento() {
+        const valor = parseFloat(valorElemento.value);
+        const descuento = parseFloat(descuentoElemento.value);
+        const valorConDescuento = (valor * (descuento / 100));
+        const total = valor - valorConDescuento;
+        valordescuentoElemento.value = valorConDescuento.toFixed(2);
+        totalElemento.value = total.toFixed(2);
+    }
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById('generarCodigo').addEventListener('click', function () {
+            var codigo = generarCodigoUnico(10);
+            document.getElementById('NumeroGuia').value = codigo;
+        });
+
+        function generarCodigoUnico(length) {
+            var caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var codigo = '';
+            for (var i = 0; i < length; i++) {
+                var indice = Math.floor(Math.random() * caracteres.length);
+                codigo += caracteres.charAt(indice);
+            }
+            return codigo;
+        }
+
+    
+       
+    });
+  
+</script>

@@ -1,0 +1,74 @@
+﻿@model IngeneoPT.ViewModels.LogicaViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Envio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Crear Orden de Envio</h1>
+
+        <form asp-action="CreateEnvio" method="post">
+            @Html.AntiForgeryToken()
+
+            <h2>Seleccione los datos del envío:</h2>
+
+            <!-- Agrega los campos de selección para los datos del envío -->
+            <div class="form-group">
+                <label>Cliente</label>
+                <select asp-for="Clientes" class="form-control">
+                    @foreach (var cliente in Model.Clientes)
+                    {
+                        <option value="@cliente.Id">@cliente.Nombre</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Producto</label>
+                <select asp-for="TiposProducto" class="form-control">
+                    @foreach (var TiposProducto in Model.TiposProducto)
+                    {
+                        <option value="@TiposProducto.Id">@TiposProducto.Nombre</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label>TiposTransporte</label>
+                <select asp-for="TiposTransporte" class="form-control">
+                    @foreach (var tiposTransporte in Model.TiposTransporte)
+                    {
+                        <option value="@tiposTransporte.Id">@tiposTransporte.Tipo</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Producto</label>
+                <select asp-for="Ubicaciones" class="form-control">
+                    @foreach (var Ubicacion in Model.Ubicaciones)
+                    {
+                        <option value="@Ubicacion.Id">@Ubicacion.Nombre</option>
+                    }
+                </select>
+            </div>
+          
+          
+
+
+
+
+
+
+            
+
+            <!-- Repite el proceso para los demás campos -->
+
+            <button type="submit" class="btn btn-primary">Guardar Envío</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿@model IngeneoPT.ViewModels.LogicaViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Data</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>View Data</h1>
+
+        <h2>Clientes:</h2>
+        <ul>
+            @foreach (var cliente in Model.Clientes)
+            {
+                <li>@cliente.Id - @cliente.Nombre</li>
+            }
+        </ul>
+
+        <h2>Productos:</h2>
+        <ul>
+            @foreach (var producto in Model.Productos)
+            {
+                <li>@producto.Id - @producto.TipoProductoId</li>
+            }
+        </ul>
+
+        <!-- Repite el proceso para las demás listas -->
+
+    </div>
+
+</body>
+</html>

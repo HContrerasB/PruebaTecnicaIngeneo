@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Prueba técnica ";
+}
+
+<div class="container mt-5">
+    <h1>Bienvenidos  a el desarrollo de prueba técnica  Ingeos</h1>
+    <p>Este es el dearrollo de la prueba tecnica de gestion de transporte de mercacia Ingeos.</p>
+
+    
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <a href="@Url.Action("Create", "Clientes")" class="btn btn-primary btn-block">Crear Cliente</a>
+            </div>
+            <div class="col-md-6 mb-3">
+                <a href="@Url.Action("Create", "Ubicaciones")" class="btn btn-primary btn-block">Crear Bodega</a>
+            </div>
+            <div class="col-md-6 mb-3">
+                <a href="@Url.Action("Create", "Productoes")" class="btn btn-primary btn-block">Crear Producto</a>
+            </div>
+            <div class="col-md-6">
+                <a href="@Url.Action("Index", "Envios")" class="btn btn-primary btn-block"> Validar Envíos</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <a href="@Url.Action("Create", "Envios")" class="btn btn-primary btn-block"> Agendar Envíos</a>
+        </div>
+    </div>
+
+    <div class="alert alert-success mt-3" role="alert">
+        Agradezco su atención y pronta respuesta
+        <br />
+        --------------------------------------------------
+        <br />
+        Hector Fernando Contreras Bolívar
+        <br />
+        Desarrollador de software
+        <br />
+        --------------------------------------------------
+
+
+
+
+    </div>
+
+
+</div>
